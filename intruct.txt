@@ -1,0 +1,3 @@
+create db web_rails, restore from web_rails.sql
+config db, user, pass in config/seccret.yml
+rake db:migrate
